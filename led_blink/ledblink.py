@@ -16,13 +16,13 @@ GPIO.setup(GREEN,GPIO.OUT)
 try:
 	while True:
 		#open led
-		print "open led"
+		print("open led")
 		GPIO.output(RED,GPIO.HIGH)
                 GPIO.output(YELLOW,GPIO.HIGH)
                 GPIO.output(GREEN,GPIO.HIGH)
 		time.sleep(0.5) #500ms
 		#close led
-		print "close led"
+		print("close led")
 		GPIO.output(RED,GPIO.LOW)
                 GPIO.output(YELLOW,GPIO.LOW)
                 GPIO.output(GREEN,GPIO.LOW)
